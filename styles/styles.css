@@ -439,3 +439,23 @@ footer {
 .resources ul li a:hover {
   color: #bc61f3 !important;
 }
+hr {
+  width: 1920px;
+  height: 2px;
+  border: 2px solid rgba(83, 84, 136, 0.3);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  opacity: 1;
+  margin-top: 5rem;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+.bottom-footer p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 183%;
+  color: #f0f0f0;
+}
